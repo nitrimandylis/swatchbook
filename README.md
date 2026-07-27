@@ -5,12 +5,12 @@
  ╚════██║██║███╗██║██╔══██║   ██║   ██║     ██╔══██║
  ███████║╚███╔███╔╝██║  ██║   ██║   ╚██████╗██║  ██║
  ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝
- ████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
- ╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
-    ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
-    ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
-    ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
-    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+ ██████╗  ██████╗  ██████╗ ██╗  ██╗
+ ██╔══██╗██╔═══██╗██╔═══██╗██║ ██╔╝
+ ██████╔╝██║   ██║██║   ██║█████╔╝
+ ██╔══██╗██║   ██║██║   ██║██╔═██╗
+ ██████╔╝╚██████╔╝╚██████╔╝██║  ██╗
+ ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
 ```
 
 <div align="center">
@@ -38,7 +38,7 @@ Three of them are published schemes typed from spec: Catppuccin Mocha, Nord, Tok
 No wallpapers are in here. The pictures that produced these colours belong to Olly Moss, DC, McLaren and a handful of artists on the internet, and none of them licensed them to me for redistribution. Each theme is the colour document; the picture is your problem.
 
 ```console
-nick@swatch-themes:~$ swatch list
+nick@swatchbook:~$ swatch list
 batman-jazz      Batman Jazz (dark) — Near-black room, steel-blue midtones, a neon-pink bat-signal accent.
 catppuccin       Catppuccin Mocha (dark) — soft pastels on a warm charcoal.
 firewatch        Firewatch (dark) — Navy night over a magenta treeline, tower window burning amber.
@@ -66,7 +66,7 @@ Every palette is 8 roles + the full ANSI 16 + named extras + `on_fill` + `varian
 Needs [swatch](https://github.com/nitrimandylis/swatch) installed. Themes live wherever `SWATCH_THEMES` points, defaulting to `~/.config/swatch/themes`:
 
 ```bash
-git clone https://github.com/nitrimandylis/swatch-themes.git ~/.config/swatch/themes
+git clone https://github.com/nitrimandylis/swatchbook.git ~/.config/swatch/themes
 swatch add nord ~/Pictures/some-arctic-thing.png
 swatch use nord
 ```
