@@ -75,16 +75,15 @@ The `add` step isn't optional — `swatch use` refuses a theme with an empty wal
 
 ## 📸 Evidence
 
-Batman Jazz, applied. The others are shot when I get around to it.
-
-![desktop](screenshots/batman-jazz-desktop.png)
-
-<details>
-<summary>more</summary>
+Batman Jazz, applied. The others are shot when I get around to it. No desktop
+shot — that one is just the wallpaper, and the wallpaper isn't mine to hand out.
 
 ![panes](screenshots/batman-jazz-panes-juke-glow-btop.png)
 
 juke, glow and btop sharing one palette.
+
+<details>
+<summary>more</summary>
 
 ![cava](screenshots/batman-jazz-panes-cava.png)
 
