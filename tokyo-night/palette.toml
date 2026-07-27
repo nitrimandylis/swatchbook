@@ -1,0 +1,36 @@
+[meta]
+name = "Tokyo Night"
+variant = "dark"
+description = "The published Tokyo Night palette, a blue city at 3am seen through glass."
+
+# The Night flavour, not Storm: these three wallpapers straddle both, and the
+# palette can only be one. Values are the published spec rather than sampled —
+# extraction landed on #1a1b27 for the background, one digit off #1a1b26.
+[roles]
+base    = "#1a1b26"   # bg
+surface = "#24283b"   # bg_dark
+overlay = "#292e42"   # bg_highlight
+text    = "#c0caf5"   # fg
+muted   = "#565f89"   # comment
+accent  = "#7aa2f7"   # blue, the signature
+deep    = "#3d59a1"   # blue0
+on_fill = "#1a1b26"
+
+[extras]
+orange = "#ff9e64"
+purple = "#bb9af7"
+
+# The official terminal mapping. Like Catppuccin, colours 1-6 do not vary
+# between normal and bright; black and white carry the contrast.
+[ansi]
+black   = ["#15161e", "#414868"]
+red     = ["#f7768e", "#f7768e"]
+green   = ["#9ece6a", "#9ece6a"]
+yellow  = ["#e0af68", "#e0af68"]
+blue    = ["#7aa2f7", "#7aa2f7"]
+magenta = ["#bb9af7", "#bb9af7"]
+cyan    = ["#7dcfff", "#7dcfff"]
+white   = ["#a9b1d6", "#c0caf5"]
+
+[render]
+opacity = 0.95

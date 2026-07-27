@@ -1,0 +1,36 @@
+[meta]
+name = "Catppuccin Mocha"
+variant = "dark"
+description = "The published Catppuccin Mocha palette, soft pastels on a warm charcoal."
+
+# Every value below is the published Mocha spec, not sampled from the images.
+# Extraction reads #1e1e2e off these wallpapers and then guesses at the rest; a
+# scheme that publishes a spec should agree with every other terminal running it.
+[roles]
+base    = "#1e1e2e"   # base
+surface = "#313244"   # surface0
+overlay = "#45475a"   # surface1
+text    = "#cdd6f4"   # text
+muted   = "#6c7086"   # overlay0
+accent  = "#cba6f7"   # mauve
+deep    = "#8839ef"   # latte's mauve — the only deeper sibling the scheme publishes
+on_fill = "#1e1e2e"   # base, because mauve is far too light to sit text on
+
+[extras]
+peach = "#fab387"
+sapphire = "#74c7ec"
+
+# The official terminal mapping. Mocha deliberately gives colours 1-6 the same
+# normal and bright value; only black and white differ.
+[ansi]
+black   = ["#45475a", "#585b70"]
+red     = ["#f38ba8", "#f38ba8"]
+green   = ["#a6e3a1", "#a6e3a1"]
+yellow  = ["#f9e2af", "#f9e2af"]
+blue    = ["#89b4fa", "#89b4fa"]
+magenta = ["#f5c2e7", "#f5c2e7"]
+cyan    = ["#94e2d5", "#94e2d5"]
+white   = ["#bac2de", "#a6adc8"]
+
+[render]
+opacity = 0.95

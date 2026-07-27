@@ -1,0 +1,32 @@
+[meta]
+name = "McLaren"
+variant = "dark"
+description = "Carbon black under pit lane light, cut by papaya orange."
+
+[roles]
+base    = "#05090a"
+surface = "#241c1b"
+overlay = "#6b514a"
+text    = "#c0c3c9"
+muted   = "#8d7b75"
+accent  = "#ff5b02"
+deep    = "#8f2a10"
+on_fill = "#05090a"
+
+[extras]
+amber = "#ffb000"
+
+# Seeded from the ten photos, then warmed by hand: every neutral pulls toward
+# the carbon body, and red/yellow toward the livery.
+[ansi]
+black   = ["#1b1f21", "#8d7b75"]
+red     = ["#c2331a", "#ff5b02"]
+green   = ["#6f7d55", "#93a077"]
+yellow  = ["#c08a2a", "#ffb000"]
+blue    = ["#3d5a70", "#6b88a9"]
+magenta = ["#8a4a52", "#c07a7e"]
+cyan    = ["#3a6b72", "#689ca9"]
+white   = ["#c0c3c9", "#e4e6ea"]
+
+[render]
+opacity = 0.94
