@@ -1,0 +1,32 @@
+[meta]
+name = "Spider-Verse"
+variant = "dark"
+description = "Into the Spider-Verse: indigo night sky, hot magenta, and the cyan half of the chromatic aberration."
+
+[roles]
+base    = "#0d0a1e"
+surface = "#171233"
+overlay = "#272049"
+text    = "#ece9f7"
+muted   = "#8d86ac"
+accent  = "#ff1f6b"
+deep    = "#c4144f"
+on_fill = "#0d0a1e"
+
+[extras]
+glitch = "#00d4ff"
+suit   = "#e5261f"
+gwen   = "#f2a2c8"
+
+[ansi]
+black   = ["#1b1638", "#5c5480"]
+red     = ["#b01c18", "#ff473c"]
+green   = ["#2fbf7a", "#3dffa8"]
+yellow  = ["#d99a12", "#ffc93c"]
+blue    = ["#6b4fd6", "#8b6cff"]
+magenta = ["#d6155a", "#ff1f6b"]
+cyan    = ["#00a8cc", "#00d4ff"]
+white   = ["#c9c4dd", "#ece9f7"]
+
+[render]
+opacity = 0.92

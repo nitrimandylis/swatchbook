@@ -1,0 +1,31 @@
+[meta]
+name = "Night City"
+variant = "dark"
+description = "Night City after rain: violet-black sky, Arasaka neon, and the yellow off the 2077 HUD."
+
+[roles]
+base    = "#0c0a16"
+surface = "#17122a"
+overlay = "#2a2142"
+text    = "#e9e6f5"
+muted   = "#8b83a8"
+accent  = "#fcee0a"
+deep    = "#b8890a"
+on_fill = "#0c0a16"
+
+[extras]
+netrunner = "#00f0ff"
+relic     = "#ff003c"
+
+[ansi]
+black   = ["#1a1530", "#4e4670"]
+red     = ["#c81e3c", "#ff4d6a"]
+green   = ["#3fb87a", "#4dffa0"]
+yellow  = ["#d9c40a", "#fcee0a"]
+blue    = ["#3d6ef0", "#5b8cff"]
+magenta = ["#c4157a", "#ff3ca8"]
+cyan    = ["#00a8b5", "#00f0ff"]
+white   = ["#b9b4cc", "#e9e6f5"]
+
+[render]
+opacity = 0.92

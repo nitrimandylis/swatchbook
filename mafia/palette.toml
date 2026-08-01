@@ -1,0 +1,31 @@
+[meta]
+name = "Mafia"
+variant = "dark"
+description = "LLM-Mafia noir: near-black CRT shell, neon-red brand, gold and green tells."
+
+[roles]
+base    = "#050609"
+surface = "#0a0b10"
+overlay = "#1b1d26"
+text    = "#e7e9ee"
+muted   = "#8b8f9c"
+accent  = "#ff2a2a"
+deep    = "#c41e1e"
+on_fill = "#050609"
+
+[extras]
+gold = "#e0a000"
+win  = "#3dff6e"
+
+[ansi]
+black   = ["#12141c", "#8b8f9c"]
+red     = ["#c41e1e", "#ff2a2a"]
+green   = ["#69c66f", "#3dff6e"]
+yellow  = ["#b07c00", "#e0a000"]
+blue    = ["#4a6a8f", "#6d92bb"]
+magenta = ["#9c3a52", "#d4556f"]
+cyan    = ["#3f8a8a", "#5fb3b3"]
+white   = ["#c9ccd4", "#e7e9ee"]
+
+[render]
+opacity = 0.92

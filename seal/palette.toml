@@ -1,0 +1,34 @@
+[meta]
+name = "Seal"
+variant = "dark"
+description = "Near-black terminal, greys doing all the work, one orange for the mug."
+
+# Hand-typed from the wallpaper generator's own constants (~/cc/wallpaper), not
+# sampled. Extraction reads #1a1a1a off these images correctly and then guesses
+# the rest: it returned text = #4a403d, a brown barely above the background. The
+# images are near-monochrome, so there is no chroma in them to recover.
+[roles]
+base    = "#1a1a1a"   # the wallpaper background
+surface = "#212121"
+overlay = "#2e2e2e"
+text    = "#ffffff"   # the fetch values
+muted   = "#888888"   # the fetch keys
+accent  = "#f56b3f"   # the mug, the hostname, the cursor
+deep    = "#c9542c"   # a darker sibling; the design only publishes the one orange
+on_fill = "#1a1a1a"   # the accent is bright enough to sit dark text on
+
+[extras]
+seal = "#4d4d4d"      # the dot matrix itself, between overlay and muted
+
+# Invented, not a published spec. The scheme is only grey plus orange, which is
+# unusable for diffs and syntax highlighting, so the hues are kept but pulled
+# down to sit next to a near-black base. Red is the accent family on purpose.
+[ansi]
+black   = ["#2e2e2e", "#4d4d4d"]
+red     = ["#f56b3f", "#ff8a63"]
+green   = ["#7f9c6d", "#94b37f"]
+yellow  = ["#c9954f", "#dfa95e"]
+blue    = ["#6f8faf", "#85a5c6"]
+magenta = ["#a97f96", "#bf94ab"]
+cyan    = ["#6fa3a3", "#85b9b9"]
+white   = ["#b3b3b3", "#ffffff"]
