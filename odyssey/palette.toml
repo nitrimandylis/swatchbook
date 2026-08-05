@@ -1,0 +1,32 @@
+[meta]
+name = "Odyssey"
+variant = "dark"
+description = "Nolan's Odyssey: the wine-dark sea at night, parchment text, and one bronze off the mask."
+
+[roles]
+base    = "#070b12"
+surface = "#0f1722"
+overlay = "#1b2634"
+text    = "#e8e2d4"
+muted   = "#7c8899"
+accent  = "#c98a3f"
+deep    = "#8a5522"
+on_fill = "#070b12"
+
+[extras]
+aegean = "#2f7d8c"
+ember  = "#ff7a3c"
+wine   = "#8a3550"
+
+[ansi]
+black   = ["#101a26", "#4a5a6b"]
+red     = ["#a5342a", "#e8523f"]
+green   = ["#3f8f6a", "#57c48f"]
+yellow  = ["#c99a1a", "#edc23f"]
+blue    = ["#2f6d8c", "#4f9fbf"]
+magenta = ["#8a3550", "#c4526f"]
+cyan    = ["#2f8c86", "#4fc0b6"]
+white   = ["#c3bdae", "#e8e2d4"]
+
+[render]
+opacity = 0.92
