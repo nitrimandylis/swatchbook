@@ -1,0 +1,32 @@
+[meta]
+name = "Sherlock"
+variant = "dark"
+description = "BBC Sherlock: 221B after dark, petrol-blue grade, one teal off the screen glow."
+
+[roles]
+base    = "#0b1216"
+surface = "#141e24"
+overlay = "#24333b"
+text    = "#ddd6cf"
+muted   = "#7d8a92"
+accent  = "#3fa39a"
+deep    = "#22675f"
+on_fill = "#0b1216"
+
+[extras]
+scarf   = "#5b7fb5"
+oxblood = "#b5443a"
+brass   = "#c9a25a"
+
+[ansi]
+black   = ["#1a252c", "#4a5a64"]
+red     = ["#b5443a", "#d9675c"]
+green   = ["#5f8f4f", "#86b874"]
+yellow  = ["#b08a3e", "#d6b066"]
+blue    = ["#4a6f9e", "#7096c8"]
+magenta = ["#8a5070", "#b57896"]
+cyan    = ["#3a7f94", "#62aac0"]
+white   = ["#b3aca5", "#ddd6cf"]
+
+[render]
+opacity = 0.92
