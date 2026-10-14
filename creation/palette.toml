@@ -1,0 +1,32 @@
+[meta]
+name = "Creation"
+variant = "dark"
+description = "The Creation of Adam as a dot matrix: pure black, white dots, nothing else."
+
+# Hand-typed. Extraction got base right and read text as #343434, because the
+# dots are a few percent of the pixels. The image has no chroma, so the accent
+# is the dot-white itself and text sits one step below it.
+[roles]
+base    = "#000000"   # the void between the hands
+surface = "#0e0e0e"
+overlay = "#1c1c1c"
+text    = "#d6d6d6"
+muted   = "#808080"   # the small dots
+accent  = "#ffffff"   # the big dots
+deep    = "#b0b0b0"   # btop gradient floor, a dimmer white
+on_fill = "#000000"
+
+[extras]
+dot = "#ffffff"
+
+# Invented: grey-only is unusable for diffs and syntax, so the hues are kept
+# but desaturated to sit beside the monochrome roles.
+[ansi]
+black   = ["#1c1c1c", "#4d4d4d"]
+red     = ["#d07a7a", "#e39a9a"]
+green   = ["#8fae86", "#a8c69f"]
+yellow  = ["#cdb27a", "#e0c895"]
+blue    = ["#7f9bb8", "#9db6cf"]
+magenta = ["#b391a8", "#c9abbf"]
+cyan    = ["#82adad", "#9fc5c5"]
+white   = ["#b3b3b3", "#ffffff"]
