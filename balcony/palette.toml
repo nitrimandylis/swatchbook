@@ -1,0 +1,29 @@
+[meta]
+name = "Balcony"
+variant = "dark"
+description = "A wet city from the balcony: slate-navy rain sky, haze between towers, and the window gold of every lit flat."
+
+[roles]
+base    = "#131822"
+surface = "#28303d"
+overlay = "#514f52"
+text    = "#e6dccb"
+muted   = "#746a64"
+accent  = "#ffb347"   # the lit windows
+deep    = "#985621"
+on_fill = "#131822"
+
+[extras]
+aviation = "#e5484d"   # rooftop warning lights
+rain     = "#7d9cc4"   # the haze and wet sky
+
+# Seeded from reference hues pulled toward the image. Tune by eye.
+[ansi]
+black   = ["#292829", "#746a64"]
+red     = ["#953746", "#cd5a57"]
+green   = ["#5d7458", "#919b6b"]
+yellow  = ["#b5a03c", "#dcc862"]   # pushed lemon, away from the gold accent
+blue    = ["#3c5879", "#6e7e8e"]
+magenta = ["#81516e", "#b87683"]
+cyan    = ["#3a6b79", "#6b928e"]
+white   = ["#c9bfae", "#f2ebdf"]
